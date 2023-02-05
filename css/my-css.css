@@ -217,7 +217,7 @@ iframe#booking{
   margin-top:80px;
   min-height:1200px;
   max-width: 100%;
-	background:url('../img/coffee.jpg');
+	background:url(../img/coffee.jpg);
 	background-repeat:no-repeat 0 -300px;
 	background-size: cover;
   background-position: 50% 50%;
