@@ -1,0 +1,76 @@
+<!--Webdev607 Assignment 3 Website design for Restaurant
+Sarah Oxley SN#5063336 Feb.2023-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--responsive design to fit different screens-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <!--title tag and meta description/keywords help search engines understand the content on a page appears in search engine results.-->
+  <meta name="description" content="Delicious kai in the Bay of Islands">
+  <meta name="keywords" content="Haukai Restaurant, food, kai, Bay of Islands, New Zealand">
+  <title>Haukai Restaurant | Welcome</title>
+  <link rel="stylesheet" href="css/my-css.css">
+</head>
+
+<body>
+  <!--navigation menu at top of page-->
+  <header>
+    <section class="top-nav">
+      <div>
+        <p>THE HAUKAI RESTAURANT</p>
+      </div><!-- toggles the menu navigation so it is hidden-->
+      <input id="menu-toggle" type="checkbox">
+      <label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
+      </label>
+      <ul class="menu">
+        <li class="current">
+          <a href="index.html" title="Home Page">Home</a>
+        </li>
+        <li>
+          <a href="reservations.html" title="Reservations">Reservations</a>
+        </li>
+        <li>
+          <a href="menu.html" title="Menu Page">Menu</a>
+        </li>
+        <li>
+          <a href="contact.html" title="Contact Us">Contact Us</a>
+        </li>
+      </ul>
+    </section>
+  </header>
+  <section id="showcase">
+    <div class="container">
+      <!-- Intro paragraph on main page-->
+      <h3>Kia Ora Koutou and Welcome to the Haukai Restaurant.</h3>
+      <p>Haere mai! | Welcome! Come!</p>
+      <h4>Situated in the beautiful Bay of Islands, New Zealand.</h4>
+    </div>
+  </section>
+
+  <section id="video">
+    <div class="container">
+      <!-- food video-->
+      <h2>Come Experience Something Special...</h2><video width="600px" height="600px" controls="controls">
+        <source src="../video/Prawns.mp4" type="video/mp4">
+        <p>Video of cooked prawns. Your browser doesn't support HTML video. Here is a <a
+            href="https://pixabay.com/videos/id-11659/">link to the video</a> instead.</p>
+      </video>
+      <h3><strong>We look forward to having you and your family for some Delicious Kai!</strong></h3><br>
+      <h4><strong>Current Promotions: Please refer to our full Menu for pricing and selection</strong></h4><br>
+      <h5><strong>Visit our Contact and Reservation pages for more infomation</strong></h5>
+      <p>Click <a href="private/private.html ">here</a> to access the private page.</p>
+    </div>
+  </section><!-- links to the privacy and contact us pages on all the footers-->
+  <footer>
+    <div class="container">
+      <h2>Open Wednesday to Sunday from 5pm</h2>
+      <h3>View our <a href="privacystatement.html" title="Privacy Statement">privacy statement</a> | <a
+          href="../pages/contact.html" title="Contact Us">Contact Us</a> | The Haukai Restaurant, Copyright ©2023</h3>
+    </div>
+  </footer><!--end of page-->
+</body>
+
+</html>
